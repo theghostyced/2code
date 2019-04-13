@@ -1,9 +1,9 @@
-import Test from '../components/Test';
+import Home from '../components/Home';
 
 const routes = [
   {
     path: '/',
-    component: Test,
+    component: Home,
     name: 'signup',
     exact: true,
   }

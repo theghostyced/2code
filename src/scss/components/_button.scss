@@ -1,0 +1,26 @@
+.button {
+  padding: 1.5rem 3rem;
+  box-shadow: $button-shadow;
+  font-weight: 700;
+  font-size: 1.4rem;
+  transition: all .1s ease-in-out; 
+
+  &--filled {
+    background: $interactive-color;
+    color: $white;
+
+    &:hover {
+      background: darken($interactive-color, 2);
+      box-shadow: $button-shadow-hover;
+    }
+  }
+
+  &--outlined {
+    border: 1px solid $border-grey;
+
+    &:hover {
+      background: $border-grey;
+      color: $white;
+    }
+  }
+}

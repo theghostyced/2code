@@ -1,0 +1,52 @@
+@import '../../scss/_variables';
+
+.home-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.home-wrapper .main {
+  width: 60rem;
+}
+
+.home-wrapper .hero-section {
+  text-align: center;
+  margin-top: 35rem;
+}
+
+.hero-section {
+  .heading {
+    font-size: 7.5rem;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont,"Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    letter-spacing: 2rem;
+    color: $black;
+    margin: 2rem 0;
+  }
+
+  .paragraph {
+    width: 34rem;
+    margin: 0 auto;
+    line-height: 2.2rem;
+  }
+
+  .hero__button-group {
+    margin-top: 10rem;
+
+    .button {
+      margin-right: 1rem;
+
+      &:first-child {
+        padding-left: 5rem;
+        padding-right: 5rem;
+      }
+
+      &:last-child {
+        margin-right: 0;
+        box-shadow: none;
+      }
+    }
+  }
+}
