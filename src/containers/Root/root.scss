@@ -1,3 +1,26 @@
+
+@import "../../scss/base";
+
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+}
+
 body {
+  margin: 0;
+  padding: 0;
   background: #fff;
+  font-family: $font-family;
+  font-size: 1.6rem;
+  color: $black;
+}
+
+h1, h2, h3 {
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  padding: 0 5rem;
 }
