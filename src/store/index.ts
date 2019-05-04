@@ -13,6 +13,7 @@ const middlewares = [
   })
 ];
 
+
 const rrfConfig = {
   userProfile: 'users',
 }
